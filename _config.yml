@@ -6,17 +6,26 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Poole
-tagline:          The Jekyll Butler
-url:              http://getpoole.com
-paginate:         1
+title:            Exaile 
+tagline:          Music Player for GTK+
+url:              http://exaile-dev.github.io
+paginate:         5
 baseurl:          /
 author:
-  name:           Mark Otto
-  url:            https://twitter.com/mdo
-  email:          markdotto@gmail.com
+  name:           Exaile Developer Team
+  url:            http://www.exaile.org
+  email:          exaile-devel@googlegroups.com
+
+# Menu setup
+menu:
+    - ["Home", "/"]
+    - ["Download", "/download/"]
+    - ["Screenshots", "/screens/"]
+    - ["Support", "/support"]
+    - ["Documentation", "http://exaile.readthedocs.org"]
+    - ["Bug Tracker", "https://github.com/exaile-dev/exaile/issues"]
 
 # Custom vars
 version:          1.0.0
 github:
-  repo:           https://github.com/poole/poole
+  repo:           https://github.com/exaile-dev/exaile-dev.github.io
