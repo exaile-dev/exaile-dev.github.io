@@ -3,9 +3,6 @@ layout: page
 title: Download
 ---
 
-## Requirements
-
-If you are installing from source, please check the DEPS file (included in the tarballs) to make sure you have all the required dependencies to run Exaile. 
 
 <!--
 
@@ -18,13 +15,11 @@ If you are installing from source, please check the DEPS file (included in the t
 *   [OSX disk image](https://launchpad.net/exaile/3.4.x/3.4.0-rc0/+download/Exaile-3.4.0-rc0.dmg)
 -->
 
-## Current Release
+### Current release: Source & Binary Packages 
 
-### Source & Binary Packages
-
-*   [3.4.0.1 Source](https://github.com/exaile-dev/exaile/archive/3.4.0.1.tar.gz)
-*   [Windows Installer for 3.4.0](https://github.com/exaile-dev/exaile/releases/download/3.4.0/exaile-3.4.0.exe)
-*   [OSX disk image for 3.4.0](https://github.com/exaile-dev/exaile/releases/download/3.4.0/exaile-3.4.0.dmg)
+*   [{{ site.exaile.srcver }} Source](https://github.com/exaile-dev/exaile/archive/{{ site.exaile.srcver }}.tar.gz)
+*   [Windows Installer ({{ site.exaile.winver }})](https://github.com/exaile-dev/exaile/releases/download/{{ site.exaile.winver }}/exaile-{{ site.exaile.winver }}.exe)
+*   [OSX disk image ({{ site.exaile.osxver }})](https://github.com/exaile-dev/exaile/releases/download/{{ site.exaile.osxver }}/exaile-{{ site.exaile.osxver }}.dmg)
 
 <!--
 
@@ -37,6 +32,11 @@ The exaile developers provide an Ubuntu PPA to provide easy, automatic updates f
 ### Linux packages
 
 The Exaile team does not currently provide supported packages (rpm, deb, etc) for any Linux distributions.  However most distributions include Exaile in their repositories.
+
+### Requirements
+
+If you are installing from source, please check the DEPS file (included in the tarballs) to make sure you have all the required dependencies to run Exaile. 
+
 
 ## Development Release
 

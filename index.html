@@ -3,6 +3,25 @@ layout: default
 title: Home
 ---
 
+{% if paginator.page == 1 %}
+  <div class="description">
+
+    <h3>
+      {{ site.title }}: {{ site.tagline }}
+    </h3>
+
+    <p>
+    Simple interface. Powerful music management. Smart Playlists.
+    Advanced track tagging. Automatic album art. Lyrics.
+    Streaming Radio. Podcasts. Secondary output device support.
+    Easily extensible with 50+ plugins available.
+    </p>
+    <br/>
+    <a href="{{ site.baseurl }}download/">Download Exaile</a>
+
+  </div>
+{% endif %}
+
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">

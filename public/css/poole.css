@@ -49,25 +49,25 @@ body {
 
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.5;
 }
 @media (min-width: 38em) {
   html {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
 body {
   color: #515151;
-  background-color: #fff;
+  background-color: #7db94a;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #268bd2;
+  color: #5e9709;
   text-decoration: none;
 }
 a strong {
@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 h2 {
   margin-top: 1rem;
@@ -251,6 +251,96 @@ tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
 
+/*
+ * Menu/navbar
+ *
+ */
+
+nav img {
+  float: left;
+  width: 5rem;
+  height: 5rem;
+}
+
+nav h3 {
+  float: left;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+#play {
+  color: #5e9709;
+  font-weight: normal;
+  font-size: 75%;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem 0 1rem 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav ul a {
+  display: block;
+  padding: 0.4rem 1rem 0.4rem 1rem;
+  border-left: 1px solid #dddddd;
+}
+
+nav ul a:hover, nav ul a:active {
+  background-color: #7db94a;
+  color: #fff;
+}
+
+nav {
+  border-bottom: 1px solid #dddddd;
+}
+
+.clear {
+  clear: both;
+}
+
+
+/*
+ * Description
+ * 
+ */
+
+.description {
+  padding: 4rem;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjYTFlZDVlIiBzdG9wLW9wYWNpdHk9IjAiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzdkYjk0YSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+  background: -moz-linear-gradient(-45deg,  rgba(161,237,94,0) 0%, rgba(125,185,74,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(161,237,94,0)), color-stop(100%,rgba(125,185,74,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  rgba(161,237,94,0) 0%,rgba(125,185,74,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  rgba(161,237,94,0) 0%,rgba(125,185,74,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  rgba(161,237,94,0) 0%,rgba(125,185,74,1) 100%); /* IE10+ */
+  background: linear-gradient(135deg,  rgba(161,237,94,0) 0%,rgba(125,185,74,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a1ed5e', endColorstr='#7db94a',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+
+}
+
+.description a {
+  color: #fff;
+  background-color: #7db94a;
+  padding: 1rem;
+  border-radius: 0.6rem;
+}
+
+.description a:hover,
+.description a:focus {
+  text-decoration: none;
+  background-color: #5e9709;
+}
+
 
 /*
  * Custom type
@@ -286,38 +376,12 @@ tbody tr:nth-child(odd) th {
  */
 
 .container {
-  max-width: 38rem;
-  padding-left:  1rem;
-  padding-right: 1rem;
+  max-width: 50rem;
+  padding-left:  2rem;
+  padding-right: 2rem;
   margin-left:  auto;
   margin-right: auto;
-}
-
-
-/*
- * Masthead
- *
- * Super small header above the content for site name and short description.
- */
-
-.masthead {
-  padding-top:    1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 3rem;
-}
-.masthead-title {
-  margin-top: 0;
-  margin-bottom: 0;
-  color: #505050;
-}
-.masthead-title a {
-  color: #505050;
-}
-.masthead-title small {
-  font-size: 75%;
-  font-weight: 400;
-  color: #c0c0c0;
-  letter-spacing: 0;
+  background-color: #fff;
 }
 
 

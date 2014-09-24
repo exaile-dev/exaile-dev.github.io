@@ -18,12 +18,18 @@ author:
 
 # Menu setup
 menu:
-    - ["Home", "/"]
     - ["Download", "/download/"]
     - ["Screenshots", "/screens/"]
+    - ["Docs", "http://exaile.readthedocs.org"]
     - ["Support", "/support"]
-    - ["Documentation", "http://exaile.readthedocs.org"]
-    - ["Bug Tracker", "https://github.com/exaile-dev/exaile/issues"]
+    - ["Bugs", "https://github.com/exaile-dev/exaile/issues"]
+
+# Exaile versions, used in various places
+exaile:
+  version:        3.4.0.2
+  srcver:         3.4.0.2
+  osxver:         3.4.0.2
+  winver:         3.4.0
 
 # Custom vars
 version:          1.0.0
