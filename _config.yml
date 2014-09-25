@@ -18,10 +18,11 @@ author:
 
 # Menu setup
 menu:
-    - ["Download", "/download/"]
+    - ["Get It", "/download/"]
     - ["Screenshots", "/screens/"]
     - ["Docs", "http://exaile.readthedocs.org"]
     - ["Support", "/support"]
+    - ["Code", "https://github.com/exaile-dev/exaile"]
     - ["Bugs", "https://github.com/exaile-dev/exaile/issues"]
 
 # Exaile versions, used in various places
