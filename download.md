@@ -21,6 +21,8 @@ title: Download
 *   [Windows Installer ({{ site.exaile.winver }})](https://github.com/exaile-dev/exaile/releases/download/{{ site.exaile.winver }}/exaile-{{ site.exaile.winver }}.exe)
 *   [OSX disk image ({{ site.exaile.osxver }})](https://github.com/exaile-dev/exaile/releases/download/{{ site.exaile.osxver }}/exaile-{{ site.exaile.osxver }}.dmg)
 
+There are no 3.4.0.1 and 3.4.0.2 releases for Windows because the changes in those versions only affect other platforms.
+
 <!--
 
 ### Ubuntu Repository
