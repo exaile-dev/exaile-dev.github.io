@@ -5,7 +5,7 @@ title: Exaile Support Resources
 
 If you believe you have found a bug, you can click [here](https://github.com/exaile-dev/exaile/issues/new) to report it.  You will need to create a github account before you can post a bug report.
 
-The following are ways you can get support or questions to answers you might have about using or developing Exaile:
+You may want to check the [Frequently Asked Questions](http://exaile.readthedocs.org/en/latest/user/faq.html) to see if your question is addressed there. Otherwise, the following ways are available to get support or ask questions you might have about using or developing Exaile:
 
 **MAILING LISTS**
 
@@ -17,4 +17,4 @@ We run mailing lists for various purposes.
 
 **IRC**
 
-Exaile developers can be reached on **#exaile** channel on [Freenode](http://freenode.net/irc_servers.shtml). _Note: the channel is not very active, but if you stick around long enough someone will probably answer your question -- think in terms of email response time)_
+Exaile developers can be reached on **#exaile** channel on [Freenode](http://freenode.net/irc_servers.shtml). _Note: the channel is not very active, but if you stick around long enough someone will probably answer your question -- think in terms of email response time_
