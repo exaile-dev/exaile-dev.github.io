@@ -3,7 +3,7 @@ layout: page
 title: Exaile Support Resources
 ---
 
-If you believe you have found a bug, you can click [here](https://github.com/exaile-dev/exaile/issues/new) to report it.  You will need to create a github account before you can post a bug report.
+If you believe you have found a bug, you can click [here](https://github.com/exaile/exaile/issues/new) to report it.  You will need to create a github account before you can post a bug report.
 
 You may want to check the [Frequently Asked Questions](http://exaile.readthedocs.org/en/latest/user/faq.html) to see if your question is addressed there. Otherwise, the following ways are available to get support or ask questions you might have about using or developing Exaile:
 
