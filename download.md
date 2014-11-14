@@ -17,9 +17,9 @@ title: Download
 
 ### Current release: Source & Binary Packages 
 
-*   [{{ site.exaile.srcver }} Source](https://github.com/exaile-dev/exaile/archive/{{ site.exaile.srcver }}.tar.gz)
-*   [Windows Installer ({{ site.exaile.winver }})](https://github.com/exaile-dev/exaile/releases/download/{{ site.exaile.winver }}/exaile-{{ site.exaile.winver }}.exe)
-*   [OSX disk image ({{ site.exaile.osxver }})](https://github.com/exaile-dev/exaile/releases/download/{{ site.exaile.osxver }}/exaile-{{ site.exaile.osxver }}.dmg)
+*   [{{ site.exaile.srcver }} Source](https://github.com/exaile/exaile/archive/{{ site.exaile.srcver }}.tar.gz)
+*   [Windows Installer ({{ site.exaile.winver }})](https://github.com/exaile/exaile/releases/download/{{ site.exaile.winver }}/exaile-{{ site.exaile.winver }}.exe)
+*   [OSX disk image ({{ site.exaile.osxver }})](https://github.com/exaile/exaile/releases/download/{{ site.exaile.osxver }}/exaile-{{ site.exaile.osxver }}.dmg)
 
 <!--
 
@@ -44,7 +44,7 @@ If you are installing from source, please check the DEPS file (included in the t
 
 If you wish to download the latest development code, you can type the following:
 
-    git clone https://github.com/exaile-dev/exaile.git
+    git clone https://github.com/exaile/exaile.git
 
 and to update it:
 
@@ -52,6 +52,6 @@ and to update it:
 
 ## Other Files
 
-Source code releases from 3.3.0 on can be downloaded [at github](https://github.com/exaile-dev/exaile/releases).
+Source code releases from 3.3.0 on can be downloaded [at github](https://github.com/exaile/exaile/releases).
 
 For old releases in the 0.3.0 and later series, see [our launchpad downloads](https://launchpad.net/exaile/+download).
