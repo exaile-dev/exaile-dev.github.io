@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            Exaile 
 tagline:          Music Player for GTK+
-url:              http://exaile-dev.github.io
+url:              http://exaile.github.io
 paginate:         5
 baseurl:          /
 author:
@@ -22,8 +22,8 @@ menu:
     - ["Screenshots", "/screens/"]
     - ["Docs", "http://exaile.readthedocs.org"]
     - ["Support", "/support"]
-    - ["Code", "https://github.com/exaile-dev/exaile"]
-    - ["Bugs", "https://github.com/exaile-dev/exaile/issues"]
+    - ["Code", "https://github.com/exaile/exaile"]
+    - ["Bugs", "https://github.com/exaile/exaile/issues"]
 
 # Exaile versions, used in various places
 exaile:
@@ -35,4 +35,4 @@ exaile:
 # Custom vars
 version:          1.0.0
 github:
-  repo:           https://github.com/exaile-dev/exaile-dev.github.io
+  repo:           https://github.com/exaile/exaile.github.io
