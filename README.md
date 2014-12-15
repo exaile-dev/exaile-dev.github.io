@@ -17,4 +17,3 @@ Once that is done, you can start the site using this
     bundle exec jekyll serve --watch
 
 For more help, refer to https://help.github.com/articles/using-jekyll-with-pages
-
