@@ -24,10 +24,10 @@ menu:
 
 # Exaile versions, used in various places
 exaile:
-  version:        3.4.2
-  srcver:         3.4.2
-  osxver:         3.4.2
-  winver:         3.4.2
+  version:        3.4.3
+  srcver:         3.4.3
+  osxver:         3.4.3
+  winver:         3.4.3
 
 # Custom vars
 version:          1.0.0
