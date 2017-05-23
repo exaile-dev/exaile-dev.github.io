@@ -19,7 +19,8 @@ title: Download
 
 *   [{{ site.exaile.srcver }} Source](https://github.com/exaile/exaile/archive/{{ site.exaile.srcver }}.tar.gz)
 *   [Windows Installer ({{ site.exaile.winver }})](https://github.com/exaile/exaile/releases/download/{{ site.exaile.winver }}/exaile-{{ site.exaile.winver }}.exe)
-*   [OSX disk image ({{ site.exaile.osxver }})](https://github.com/exaile/exaile/releases/download/{{ site.exaile.osxver }}/exaile-{{ site.exaile.osxver }}.dmg)
+*   OSX disk image not available for this release
+<!-- *   [OSX disk image ({{ site.exaile.osxver }})](https://github.com/exaile/exaile/releases/download/{{ site.exaile.osxver }}/exaile-{{ site.exaile.osxver }}.dmg) -->
 
 <!--
 

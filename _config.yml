@@ -1,6 +1,8 @@
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+
+gems:
+  - jekyll-paginate
 
 # Setup
 title:            Exaile 
@@ -24,10 +26,10 @@ menu:
 
 # Exaile versions, used in various places
 exaile:
-  version:        3.4.5
-  srcver:         3.4.5
-  osxver:         3.4.5
-  winver:         3.4.5
+  version:        4.0.0-beta1
+  srcver:         4.0.0-beta1
+  osxver:         4.0.0-beta1
+  winver:         4.0.0-beta1
 
 # Custom vars
 version:          1.0.0
