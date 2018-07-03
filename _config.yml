@@ -26,10 +26,10 @@ menu:
 
 # Exaile versions, used in various places
 exaile:
-  version:        4.0.0-rc0
-  srcver:         4.0.0-rc0
-  osxver:         4.0.0-rc0
-  winver:         4.0.0-rc0
+  version:        4.0.0-rc1
+  srcver:         4.0.0-rc1
+  osxver:         4.0.0-rc1
+  winver:         4.0.0-rc1
 
 # Custom vars
 version:          1.0.0
