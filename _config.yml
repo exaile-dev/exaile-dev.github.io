@@ -30,6 +30,7 @@ exaile:
   srcver:         4.0.0-rc1
   osxver:         4.0.0-rc1
   winver:         4.0.0-rc1
+  winfilever:     4.0.0rc1
 
 # Custom vars
 version:          1.0.0
