@@ -30,6 +30,10 @@ The exaile developers provide an Ubuntu PPA to provide easy, automatic updates f
 
 -->
 
+### OSX Installation
+
+You can install Exaile on OSX via homebrew. See [homebrew-exaile](https://github.com/exaile/homebrew-exaile) for details.
+
 ### Linux packages
 
 The Exaile team does not currently provide supported packages (rpm, deb, etc) for any Linux distributions.  However most distributions include Exaile in their repositories.
