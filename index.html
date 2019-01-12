@@ -40,13 +40,13 @@ title: Home
 
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="pagination-item older">&laquo; Older</a>
+    <a href="{{ paginator.previous_page_path }}" class="pagination-item newer">&laquo; Newer</a>
   {% else %}
-    <span class="pagination-item older">&laquo; Older</span>
+    <span class="pagination-item newer">&laquo; Newer</span>
   {% endif %}
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="pagination-item newer">Newer &raquo;</a>
+    <a href="{{ paginator.next_page_path }}" class="pagination-item older">Older &raquo;</a>
   {% else %}
-    <span class="pagination-item newer">Newer &raquo;</span>
+    <span class="pagination-item older">Older &raquo;</span>
   {% endif %}
 </div>
