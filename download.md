@@ -17,7 +17,7 @@ title: Download
 
 ### Current release: Source & Binary Packages 
 
-*   [{{ site.exaile.srcver }} Source](https://github.com/exaile/exaile/archive/exaile-{{ site.exaile.srcver }}.tar.gz)
+*   [{{ site.exaile.srcver }} Source](https://github.com/exaile/exaile/releases/download/{{ site.exaile.winver }}/exaile-{{ site.exaile.srcver }}.tar.gz)
 *   [Windows Installer ({{ site.exaile.winver }})](https://github.com/exaile/exaile/releases/download/{{ site.exaile.winver }}/exaile-{{ site.exaile.winfilever }}.exe)
 *   OSX disk image not available for this release
 <!-- *   [OSX disk image ({{ site.exaile.osxver }})](https://github.com/exaile/exaile/releases/download/{{ site.exaile.osxver }}/exaile-{{ site.exaile.osxver }}.dmg) -->
