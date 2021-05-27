@@ -17,4 +17,5 @@ We run mailing lists for various purposes.
 
 **IRC**
 
-Exaile developers can be reached on **#exaile** channel on [Freenode](http://freenode.net/irc_servers.shtml). _Note: the channel is not very active, but if you stick around long enough someone will probably answer your question -- think in terms of email response time_
+We used to maintain the #exaile channel on freenode, but have abandoned it.
+Please use the other communication avenues.
